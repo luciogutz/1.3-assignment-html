@@ -5,19 +5,36 @@
     <title>YouTube</title>
   </head>
   <body>
+    <!-- Contains escape hatch, and webpage navigation option -->
     <nav>
       <img src="https://www.seoclerk.com/pics/want44850-1QZ3151479395802.jpg" alt="YouTube Home">
       <form class="search" action="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube%2Fsearch" method="GET">
         <input type="submit" value="Search">
-        <a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube%2Fbrowse">Browse</a>
-        <a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/upload">Upload</a>
-        <a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/create+account">Create Account</a>
-        <a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/sign+in">Sign In</a>
+        <!-- Created two unordered list seperating Browse, Upload from Create Account, Sign In -->
+        <ul>
+          <li><a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube%2Fbrowse">Browse</a></li>
+          <li><a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/upload">Upload</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/create+account">Create Account</a></li>
+          <li><a href="https://www.google.ca/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=youtube/sign+in">Sign In</a></li>
+        </ul>
+
+      </nav>
+        <!--  -->
       <main>
         <h1> Matrix - The Pill </h1>
+        <!-- has user link and two user interactive elements, how many videos user wants to see, and subscribe button -->
         <header>
           <a href="https://medium.com/me/stories/public">Lucio Gutierrez</a>
-          <input type="" name="" value="">
+          <select>
+            <option value="4">4</option>
+            <option value="8">8</option>
+            <option value="12">12</option>
+            <option value="16">16</option>
+            <option value="20">20</option>
+          </select>
+
         </header>
       </main>
 
